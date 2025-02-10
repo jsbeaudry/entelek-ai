@@ -1,5 +1,7 @@
 # Entèlèk AI
 
+#### Made In 🇭🇹 Haiti With Love
+
 ## Overview
 
 This project is a locally hosted AI system leveraging Large Language Models (LLMs) and vision models to perform various AI-driven tasks. It is designed to run efficiently on local hardware, making use of Ollama for model execution and a tech stack including Node.js, JavaScript/TypeScript, and Next.js for frontend interactions.
@@ -89,7 +91,7 @@ yarn dev
 - Build a vector database for efficient context retrieval.
 - Implement search and indexing of documents.
 
-### Phase 4: Context-Augmented Generation (CAG) - (PENDING)
+### Phase 4: Cache-Augmented Generation (CAG) - (PENDING)
 
 - Enhance LLM responses by adding structured context.
 - Improve prompt engineering for better results.
