@@ -55,8 +55,8 @@ ollama run moondream
 ### 3. Clone the Repository
 
 ```bash
-git clone https://github.com/your-repo/local-ai-system.git
-cd local-ai-system
+git clone https://github.com/jsbeaudry/entelek-ai.git
+cd entelek-ai
 ```
 
 ### 4. Install Dependencies

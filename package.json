@@ -1,7 +1,8 @@
 {
-  "name": "509biz",
+  "name": "entelek-ai",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": "Jean Sauvenel Beaudry",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
