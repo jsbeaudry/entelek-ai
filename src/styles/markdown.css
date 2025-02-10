@@ -1,0 +1,252 @@
+.markdown-content {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    /* padding: 10px; */
+    color: #333;
+    
+  }
+  
+
+  .dark .markdown-content {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    /* padding: 10px; */
+    color: #ffffff;
+  }
+  /* Headings */
+  .markdown-content h1 {
+    color: #333;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    font-size:larger;
+  }
+  .dark .markdown-content h1 {
+    color: #ffffff;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    font-size:larger;
+  }
+  
+  
+  .markdown-content h2 {
+    color: #444;
+    margin-top: 20px;
+    font-size: large;
+  }
+  
+
+  .dark  .markdown-content h2 {
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: large;
+  }
+  
+  .markdown-content h3 {
+    color: #555;
+    margin-top: 18px;
+    font-size:medium;
+  }
+  
+
+  .dark .markdown-content h3 {
+    color: #ffffff;
+    margin-top: 18px;
+    font-size:medium;
+  }
+  .markdown-content h4,
+  .markdown-content h5,
+  .markdown-content h6 {
+    color: #666;
+    margin-top: 15px;
+  }
+
+  .dark .markdown-content h6 {
+    color: #ffffff;
+    margin-top: 15px;
+  }
+  
+  /* Paragraphs */
+  .markdown-content p {
+    color: #555;
+    margin: 10px 0;
+  }
+
+  .dark .markdown-content p {
+    color: #ffffff;
+    margin: 10px 0;
+  }
+  
+  /* Lists */
+  .markdown-content ul,
+  .markdown-content ol {
+    margin: 10px 0;
+    padding-left: 20px;
+  }
+  
+  .markdown-content li {
+    margin: 5px 0;
+  }
+  
+  
+  
+  /* Links */
+  .markdown-content a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  .markdown-content a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Blockquotes */
+  .markdown-content blockquote {
+    border-left: 4px solid #ddd;
+    padding-left: 15px;
+    margin: 10px 0;
+    color: #666;
+    font-style: italic;
+  }
+
+  .dark .markdown-content blockquote {
+    border-left: 4px solid #ddd;
+    padding-left: 15px;
+    margin: 10px 0;
+    color: #ffffff;
+    font-style: italic;
+  }
+  
+  
+  /* Tables */
+  .markdown-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .markdown-content th,
+  .markdown-content td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .markdown-content th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  /* Images */
+  .markdown-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+  }
+  
+  /* Horizontal Rule */
+  .markdown-content hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+  }
+  
+  /* Bold & Italic */
+  .markdown-content strong {
+    font-weight: bold;
+  }
+  
+  .markdown-content em {
+    font-style: italic;
+  }
+  
+  /* Strikethrough */
+  .markdown-content del {
+    text-decoration: line-through;
+  }
+  
+
+
+
+
+  /* General Code Block Styling */
+.markdown-content code {
+  background-color: #f4f4f4;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  color: #333;
+}
+
+.dark .markdown-content code {
+  background-color: #151515;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  color: #ddd;
+}
+
+/* Code Blocks */
+.markdown-content pre {
+  background-color: #f8f8f8;
+  padding: 12px;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.dark .markdown-content pre {
+  background-color: #1f1f1f;
+  color: #e6e6e6;
+}
+
+/* Remove extra padding from pre > code */
+.markdown-content pre code {
+  background-color: transparent;
+  padding: 0;
+}
+
+/* Syntax Highlighting */
+.markdown-content code.language-html {
+  color: #d73a49;
+}
+
+.markdown-content code.language-js,
+.markdown-content code.language-javascript {
+  color: #f5a623;
+}
+
+.markdown-content code.language-py,
+.markdown-content code.language-python {
+  color: #3572a5;
+}
+
+.markdown-content code.language-jsx {
+  color: #61dafb;
+}
+
+/* Dark Mode Syntax Highlighting */
+.dark .markdown-content code.language-html {
+  color: #ff6b6b;
+}
+
+.dark .markdown-content code.language-js,
+.dark .markdown-content code.language-javascript {
+  color: #ffcc00;
+}
+
+.dark .markdown-content code.language-py,
+.dark .markdown-content code.language-python {
+  color: #4fa3d1;
+}
+
+.dark .markdown-content code.language-jsx {
+  color: #61dafb;
+}
