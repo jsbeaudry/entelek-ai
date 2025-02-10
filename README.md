@@ -27,7 +27,7 @@ Entèlèk AI is designed with simplicity and efficiency in mind:
 
 ## Tech Stack
 
-- **Backend**: Node.js (JavaScript/TypeScript)
+- **Backend**: Next.js server (JavaScript/TypeScript)
 - **LLMs**: Llama, DeepSeek, Mistral
 - **Vision Models**: Moondream
 - **Model Runtime**: Ollama
@@ -42,8 +42,8 @@ Entèlèk AI is designed with simplicity and efficiency in mind:
 
 ### 1. Install Ollama and Nodejs
 
-Download and install Ollama from [here](https://ollama.ai).
-Download and install Nodejs from [here](https://nodejs.org/en/download).
+- Download and install Ollama from [here](https://ollama.ai).
+- Download and install Nodejs from [here](https://nodejs.org/en/download).
 
 ### 2. Once install open your teminal, copy and paste the model name you want to use
 

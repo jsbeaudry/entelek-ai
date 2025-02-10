@@ -77,9 +77,9 @@ export default async function handler(req) {
     let basedHist = [
       {
         role: "system",
-        content: `You are my assistant. Please Well format answer using markdown. Answer language: ${
+        content: `You are my assistant. Please Well format answer using markdown. Current language: ${
           ai?.language || "english"
-        }. Use "https://picsum.photos/500/500?random={number}" for images`,
+        }.`,
       },
     ];
 

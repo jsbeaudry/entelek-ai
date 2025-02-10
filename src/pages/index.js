@@ -43,6 +43,7 @@ const SyntaxHighlighter = dynamic(
 );
 import therme from "react-syntax-highlighter/dist/cjs/styles/prism/dracula";
 import _ from "lodash";
+import Script from "next/script";
 
 const ChatApp = () => {
   const params = useStore((state) => state.params);
@@ -370,11 +371,13 @@ const ChatApp = () => {
       disableTransitionOnChange
     >
       <Head>
-        <script src="https://preline.co/assets/vendor/preline/dist/index.js?v=1.0.0"></script>
-        <link
-          rel="stylesheet"
-          href="https://preline.co/assets/css/main.min.css?v=1.0.0"
+        <meta charSet="UTF-8" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
         />
+
+        <Script src="@/scripts/predline.js"></Script>
       </Head>
 
       <div className="h-screen">
