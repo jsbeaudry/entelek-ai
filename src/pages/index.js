@@ -20,6 +20,7 @@ import {
   CollapsibleContent,
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
+import { Skeleton } from "@/components/ui/skeleton";
 
 import Markdown from "react-markdown";
 import ModeToggle from "@/components/ModeToggle";
@@ -260,7 +261,7 @@ const ChatApp = () => {
   };
 
   const handleKeyPress = (e) => {
-    if (e.key === "Enter") {
+    if (e.key === "Enter" && models?.length > 0) {
       sendMessage();
     }
   };
@@ -571,6 +572,16 @@ const ChatApp = () => {
               className="hidden"
             />
 
+            {models?.length === 0 && (
+              <div className="flex flex-col  mt-24 ml-24 space-y-8">
+                <span className="text-xl">Models not found</span>
+                <Skeleton className="h-[125px] w-[450px] rounded-xl " />
+                <div className="space-y-8">
+                  <Skeleton className="h-4 w-[250px]" />
+                  <Skeleton className="h-4 w-[200px]" />
+                </div>
+              </div>
+            )}
             <ul
               className="pt-6 text-sm space-y-5 h-[80vh] overflow-y-auto"
               ref={chatboxRef}
@@ -732,6 +743,7 @@ const ChatApp = () => {
                   </div>
                   <div className="flex items-center gap-x-1">
                     <Button
+                      disabled={models?.length === 0}
                       onClick={sendMessage}
                       className="inline-flex p-2 shrink-0 justify-center items-center size-8 rounded-lg"
                     >
